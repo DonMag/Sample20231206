@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="vSQ-mA-DaG" customClass="MyScrollXIBView" customModule="Sample20231206" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" placeholderIntrinsicWidth="375" placeholderIntrinsicHeight="128" translatesAutoresizingMaskIntoConstraints="NO" id="oR0-Kl-o6V">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
+                    <color key="backgroundColor" red="0.68517078639999995" green="0.85688929879999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fui-ic-RkC"/>
+            <color key="backgroundColor" red="1" green="0.82473000640000005" blue="0.85477146199999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oR0-Kl-o6V" firstAttribute="bottom" secondItem="gAY-Ps-4mb" secondAttribute="bottom" id="1Xa-5v-hB6"/>
+                <constraint firstItem="oR0-Kl-o6V" firstAttribute="width" secondItem="tZx-dd-kK6" secondAttribute="width" id="4LL-1w-uKu"/>
+                <constraint firstItem="oR0-Kl-o6V" firstAttribute="leading" secondItem="gAY-Ps-4mb" secondAttribute="leading" id="9N4-fm-MG2"/>
+                <constraint firstItem="oR0-Kl-o6V" firstAttribute="top" secondItem="gAY-Ps-4mb" secondAttribute="top" id="9nW-qb-jl1"/>
+                <constraint firstItem="oR0-Kl-o6V" firstAttribute="trailing" secondItem="gAY-Ps-4mb" secondAttribute="trailing" id="lM6-Pp-ohu"/>
+            </constraints>
+            <viewLayoutGuide key="contentLayoutGuide" id="gAY-Ps-4mb"/>
+            <viewLayoutGuide key="frameLayoutGuide" id="tZx-dd-kK6"/>
+            <connections>
+                <outlet property="blueContentView" destination="oR0-Kl-o6V" id="zeU-Lk-HfF"/>
+            </connections>
+            <point key="canvasLocation" x="198" y="77"/>
+        </scrollView>
+    </objects>
+</document>
